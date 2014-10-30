@@ -1,0 +1,14 @@
+.idea/*
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.gradle/*
+build/*
+out/*
+target/*
+
+*.iml
+/gradle/*
+
+gradlew*
