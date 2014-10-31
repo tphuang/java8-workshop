@@ -24,15 +24,6 @@ public class StreamDemo {
                 new Person("howard", 29));
     }
 
-    /*Demo需求：
-    有个Person对象，该对象有name和age属性。当我们初始化一些人的信息后，对这些人进行如下操作：
-    1. 选出18岁到50岁的所有中年人；
-    2. 在1的基础上，先按姓名的字典顺序排序，再按年龄大小升序排序；
-    3. 在2的基础上，将姓名首字母大写；
-    4. 在3的基础上，选出年龄最大的Person对象；
-    5. 在3的基础上，计算所有中年人的年龄平均值；
-    6. 在3的基础上，按姓名的首字母分组。*/
-
     public List<Person> handleFilter() {
         return null;
     }
