@@ -30,6 +30,7 @@ public class Person {
         System.out.println(String.format("\t%-8s %s", name, age));
     }
 
+    //获得首字母
     public String getFirstLetter() {
         return this.name.substring(0, 1);
     }
