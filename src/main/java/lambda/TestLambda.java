@@ -37,6 +37,8 @@ public class TestLambda {
 
     public List<String> compareWithLambda() {
         List<String> names = initNames();
+//        Collections.sort(names, (s1, s2) -> {return s1.compareTo(s2);});
+        Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
         return names;
     }
 }
