@@ -86,5 +86,10 @@ public class StreamDemoTest {
         assertThat(groupMap.get("J").get(0), is(expectedGroupMap.get("J").get(0)));
         assertThat(groupMap.get("J").get(1), is(expectedGroupMap.get("J").get(1)));
         assertThat(groupMap.get("W").get(0), is(expectedGroupMap.get("W").get(0)));
+
+        groupMap.forEach((s, personList) -> {
+            System.out.println(s);
+            personList.stream().forEach(Person::showPerson);
+        });
     }
 }
